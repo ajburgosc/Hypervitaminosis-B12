@@ -12,7 +12,7 @@ Y# cargo la base  ----------------------------------------------------------
 
 
 
-data_hb <- openxlsx::read.xlsx("base_final_arreglada.xlsx")
+data_hb <- openxlsx::read.xlsx("base_final.xlsx")
 
 
 data_hb <- clean_names(data_hb)
